@@ -1,5 +1,5 @@
 local workingDirectory = reaper.GetResourcePath() .. "/Scripts/DrumsGun"
-require(workingDirectory .. "/actionFunctions")
+require(workingDirectory .. "/actions/actionFunctions")
 
 
 playOrInsertCrashNote()
